@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
+import arsenalImage from './img/arsenal_emirates.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Victoria Concordia Crescit!</h1>
+      <h2>Author: Dhir Thacker</h2>
+      <img src={arsenalImage} alt="arsenal-image" />
     </div>
   );
 }
